@@ -50,3 +50,72 @@ Write a Python program which accepts the radius of a circle from the user and co
 &nbsp;
 &nbsp;
 
+# This is the solution of Chapter 1.
+
+# Answer for Exercise 1 -
+
+# Program – 
+print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are!")
+
+# Output – 
+Twinkle, twinkle, little star, 
+	How I wonder what you are! 
+		Up above the world so high, 
+		Like a diamond in the sky. 
+Twinkle, twinkle, little star, 
+	How I wonder what you are!
+
+# Answer for Exercise 2 -
+
+# Program – 
+import sys
+print("Python version")
+print (sys.version)
+
+# Output – 
+Python version
+3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)]
+
+# Answer for Exercise 3 -
+
+# Program - 
+import datetime
+now = datetime.datetime.now()
+print("now=",now)
+print ("Current date and time : ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+# Output – 
+now= 2022-09-24 22:25:01.382348
+Current date and time : 
+2022-09-24 22:25:01
+
+# Answer for Exercise 4 - 
+
+# Program –
+a = 'hello' 
+b = 'python'
+c = 'here'
+print(a + b + c)  # Prints without a space 
+print(a,b,c)    # prints with space
+
+# Output – 
+hellopythonhere
+hello python here 
+
+# Answer for Exercise 5 -
+
+# Program –
+from math import pi
+r = float(input ("Enter radius of circle : "))
+print ("Area of the circle is: " + str(pi * r**2))
+
+# Output – 
+Enter radius of circle : 6
+Area of the circle is: 113.09733552923255
+
+
+
+
+
+
