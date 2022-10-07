@@ -59,8 +59,32 @@ A girl heads to a computer shop to buy some USB sticks. She loves USB sticks and
 Write a programme that calculates how many USB sticks she can buy and how many pounds she will have left.
 
 You will to use the arithmetic operators to complete this exercise.
-# this is solution of exercise 1
 
 &nbsp;
 &nbsp;
 &nbsp;
+
+# This is the solution of Chapter 2.
+
+# Answer for Exercise 1 -
+
+# Program – 
+message = "Python is very interesting."
+print(message)
+
+message = "I love learning it!"
+print(message)
+
+# Output – 
+Python is very interesting.
+I love learning it!
+
+# Answer for Exercise 2 -
+
+# Program – 
+print ('A.P.J. Abdul Kalam once said, "Dreams is not what you see in sleep, is the thing which doesnot let you sleep."')
+
+# Output – 
+A.P.J. Abdul Kalam once said, "Dreams is not what you see in sleep, is the thing which doesn’t let you sleep."
+
+
