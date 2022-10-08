@@ -86,9 +86,9 @@ print ("Current date and time : ")
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
 
 # Output – 
-now= 2022-09-24 22:25:01.382348
+now= 2022-10-08 12:17:28.817432
 Current date and time : 
-2022-09-24 22:25:01
+2022-10-08 12:17:28
 
 # Answer for Exercise 4 - 
 
