@@ -119,4 +119,19 @@ Using rstrip():
 Using strip():
 Evita Dmello
 
+# Answer for Exercise 4 - 
+
+# Program –
+fav_number = 3
+message = "My favorite number is " + str(fav_number) + "."
+print(message)
+
+# Output – 
+My favorite number is 3.
+
+# Answer for Exercise 5 -
+
+# Program –
+
+
 
