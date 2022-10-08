@@ -74,7 +74,7 @@ print (sys.version)
 
 # Output – 
 Python version
-3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)]
+3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]
 
 # Answer for Exercise 3 -
 
