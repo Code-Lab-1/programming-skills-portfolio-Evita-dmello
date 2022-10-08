@@ -87,4 +87,36 @@ print ('A.P.J. Abdul Kalam once said, "Dreams is not what you see in sleep, is t
 # Output – 
 A.P.J. Abdul Kalam once said, "Dreams is not what you see in sleep, is the thing which doesn’t let you sleep."
 
+# Answer for Exercise 3 -
+
+# Program - 
+name = "\tEvita Dmello\n"
+
+print("Unmodified:")
+print(name)
+
+print("\nUsing lstrip():")
+print(name.lstrip())
+
+print("\nUsing rstrip():")
+print(name.rstrip())
+
+print("\nUsing strip():")
+print(name.strip())
+
+# Output – 
+Unmodified:
+	Evita Dmello
+
+
+Using lstrip():
+Evita Dmello
+
+
+Using rstrip():
+	Evita Dmello
+
+Using strip():
+Evita Dmello
+
 
