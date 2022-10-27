@@ -103,4 +103,42 @@ Think of at least five places in the world you’d like to visit.
 &nbsp;
 &nbsp;
 
+# This is the solution of Chapter 3.
+
+# Answer for Exercise 1 -
+
+# Program – 
+names = ['Angela', 'Rujeth', 'Shyra']
+print(names[0])
+print(names[1])
+print(names[2])
+
+# Output – 
+Angela
+Rujeth
+Shyra
+
+# Answer for Exercise 2 -
+
+# Program – 
+names = ['Angela', 'Rujeth', 'Shyra']
+
+msg = "Hello, Good Morning " + names[0].title() + "!"
+print(msg)
+
+msg = "Hello, Good Morning " + names[1].title() + "!"
+print(msg)
+
+msg = "Hello, Good Morning " + names[2].title() + "!"
+print(msg)
+
+# Output – 
+Hello, Good Morning Angela!
+Hello, Good Morning Rujeth!
+Hello, Good Morning Shyra!
+
+# Answer for Exercise 3 -
+
+# Program - 
+
 
