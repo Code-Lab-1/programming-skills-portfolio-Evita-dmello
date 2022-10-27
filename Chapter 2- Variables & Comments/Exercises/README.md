@@ -132,6 +132,16 @@ My favorite number is 3.
 # Answer for Exercise 5 -
 
 # Program –
+money = 50
+usb_price = 6
+usb = money/usb_price
+pounds_left = money%usb_price
+print(usb)
+print(pounds_left)
+
+# Output – 
+8.333333333333334
+2
 
 
 
