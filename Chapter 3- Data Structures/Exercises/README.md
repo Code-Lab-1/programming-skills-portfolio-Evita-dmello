@@ -155,3 +155,136 @@ I would like to go for a picnic by car
 I would like to travel the world by a private jet
 I would like to visit different emirates by a van
 
+# Answer for Exercise 4 -
+
+# Program - 
+guests = ['Angela', 'Rujeth', 'Shyra']
+
+name = guests[0].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[1].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[2].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+# Output – 
+Angela, This is an invite for dinner at my place. Please do come with your family.
+Rujeth, This is an invite for dinner at my place. Please do come with your family.
+Shyra, This is an invite for dinner at my place. Please do come with your family.
+
+# Answer for Exercise 5 -
+
+# Program -
+guests = ['Angela', 'Rujeth', 'Shyra']
+
+name = guests[0].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[1].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[2].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[0].title()
+print("\nSorry, " + name + " can't make it to dinner.")
+
+# Angela can't make it! Let's invite Harshita instead.
+
+del(guests[0])
+guests.insert(0, 'Harshita')
+
+# Print the invitations again.
+
+name = guests[0].title()
+print("\n" + name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[1].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[2].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+# Output – 
+Angela, This is an invite for dinner at my place. Please do come with your family.
+Rujeth, This is an invite for dinner at my place. Please do come with your family.
+Shyra, This is an invite for dinner at my place. Please do come with your family.
+
+Sorry, Angela can't make it to dinner.
+
+Harshita, This is an invite for dinner at my place. Please do come with your family.
+Rujeth, This is an invite for dinner at my place. Please do come with your family.
+Shyra, This is an invite for dinner at my place. Please do come with your family.
+
+# Answer for Exercise 6 -
+
+# Program -
+guests = ['Angela', 'Rujeth', 'Shyra']
+
+name = guests[0].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[1].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[2].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[0].title()
+print("\nSorry, " + name + " can't make it to dinner.")
+
+# Angela can't make it! Let's invite Harshita instead.
+
+del(guests[0])
+guests.insert(0, 'Harshita')
+
+# Print the invitations again.
+
+name = guests[0].title()
+print("\n" + name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[1].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[2].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+# Oh no, the table won't arrive on time!
+print("\nSorry, we can only invite two people to dinner.")
+
+name = guests.pop(2)
+print("Sorry, " + name.title() + " there's no room at the table.")
+
+
+# There should be two people left. Let's invite them.
+name = guests[0].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[1].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+# Empty out the list.
+del(guests[0])
+del(guests[0])
+
+# Prove the list is empty.
+print(guests)
+
+# Output – 
+Angela, This is an invite for dinner at my place. Please do come with your family.
+Rujeth, This is an invite for dinner at my place. Please do come with your family.
+Shyra, This is an invite for dinner at my place. Please do come with your family.
+
+Sorry, Angela can't make it to dinner.
+
+Harshita, This is an invite for dinner at my place. Please do come with your family.
+Rujeth, This is an invite for dinner at my place. Please do come with your family.
+Shyra, This is an invite for dinner at my place. Please do come with your family.
+
+Sorry, we can only invite two people to dinner.
+Sorry, Shyra there's no room at the table.
+Harshita, This is an invite for dinner at my place. Please do come with your family.
+Rujeth, This is an invite for dinner at my place. Please do come with your family.
+[]
