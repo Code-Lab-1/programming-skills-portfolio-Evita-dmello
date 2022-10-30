@@ -77,3 +77,118 @@ Make a list of your favorite fruits, and then write a series of independent if s
 •Write five if statements. Each should check whether a certain kind of fruit is in your list. If the fruit is in your list, the if block 
 
 should print a statement,such as You really like bananas!
+
+
+# This is the solution of Chapter 4.
+
+# Answer for Exercise 1 -
+
+# Program – 
+# Passing version:
+
+alien_color = 'green'
+
+if alien_color == 'green':
+    print("You just earned 5 points!")
+
+
+# Failing version:
+
+alien_color = 'red'
+
+if alien_color == 'green':
+    print("You just earned 5 points!")
+
+# Output –
+# Passing Version 
+You just earned 5 points!
+
+# Failing version
+No output
+
+# Answer for Exercise 2 -
+
+# Program – 
+# if block runs:
+
+alien_color = 'green'
+
+if alien_color == 'green':
+    print("You just earned 5 points!")
+else:
+    print("You just earned 10 points!")
+
+# else block runs:
+
+alien_color = 'yellow'
+
+if alien_color == 'green':
+    print("You just earned 5 points!")
+else:
+    print("You just earned 10 points!")
+
+# Output –
+# if block runs:
+You just earned 5 points!
+
+# else block runs:
+You just earned 10 points!
+
+# Answer for Exercise 3 -
+
+# Program –
+alien_color = 'yellow'
+
+if alien_color == 'green':
+    print("You just earned 5 points!")
+elif alien_color == 'yellow':
+    print("You just earned 10 points!")
+else:
+    print("You just earned 15 points!")
+
+# Output –
+You just earned 10 points!
+
+# Answer for Exercise 4 -
+
+# Program –
+age = 18
+
+if age < 2:
+    print("You're a baby!")
+elif age < 4:
+    print("You're a toddler!")
+elif age < 13:
+    print("You're a kid!")
+elif age < 20:
+    print("You're a teenager!")
+elif age < 65:
+    print("You're an adult!")
+else:
+    print("You're an elder!")
+
+# Output –   
+You're a teenager! 
+
+# Answer for Exercise 5 -
+
+# Program –
+favorite_fruits = ['apples', 'bananas', 'mangoes']
+
+if 'bananas' in favorite_fruits:
+    print("You really like bananas!")
+if 'oranges' in favorite_fruits:
+    print("You really like oranges!")
+if 'mangoes' in favorite_fruits:
+    print("You really like mangoes!")
+if 'kiwis' in favorite_fruits:
+    print("You really like kiwis!")
+if 'apples' in favorite_fruits:
+    print("You really like apples!")
+
+# Output –   
+You really like bananas!
+You really like mangoes!
+You really like apples!  
+
+
