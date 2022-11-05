@@ -156,6 +156,89 @@ print ("Area of the circle is: " + str(pi * r**2))
 Enter radius of circle : 6
 Area of the circle is: 113.09733552923255
 
+# Answer for Exercise 6 -
+
+# Program –
+a= int(input("Enter the first number:"))
+b= int(input("Enter the second number:"))
+sum = a+b
+print ("sum of the number=",sum)
+
+# Output – 
+Enter the first number:5
+Enter the second number:7
+sum of the number= 12
+
+# Answer for Exercise 7 -
+
+# Program –
+a= int(input("Enter the first number:"))
+b= int(input("Enter the second number:"))
+sum = a--b
+print ("sum of the number=",sum)
+
+# Output – 
+Enter the first number:80
+Enter the second number:45
+sum of the number= 35
+
+# Answer for Exercise 8 -
+
+# Program –
+a= int(input("Enter the first number:"))
+b= int(input("Enter the second number:"))
+product = a*b
+print ("product of the number=",product)
+
+# Output – 
+Enter the first number:30
+Enter the second number:20
+product of the number= 600
+
+# Answer for Exercise 9 -
+
+# Program –
+a= int(input("Enter the first number:"))
+b= int(input("Enter the second number:"))
+sum = a/b
+print ("sum of the number=",sum)
+
+# Output – 
+Enter the first number:8
+Enter the second number:2
+sum of the number= 4.0
+
+# Answer for Exercise 10 -
+
+# Program –
+subject1 = int(input("Enter your English marks"))
+subject2 = int(input("Enter your Business marks"))
+subject3 = int(input("Enter your Marketing marks"))
+subject4 = int(input("Enter your Accounts marks"))
+subject5 = int(input("Enter your Informatics marks"))
+
+sum = subject1+subject2+subject3+subject4+subject5
+average = sum/5
+percent = (sum/500)*100
+
+print(end="Average Mark = ")
+print(average)
+print(end="Percentage Mark = ")
+print(percent)
+
+# Output – 
+Enter your English marks78
+Enter your Business marks88
+Enter your Marketing marks91
+Enter your Accounts marks80
+Enter your Informatics marks97
+Average Mark = 86.8
+Percentage Mark = 86.8
+
+
+
+
+
 
 
 
