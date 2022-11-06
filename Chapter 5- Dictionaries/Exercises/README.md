@@ -69,3 +69,131 @@ each pet
 &nbsp;
 
 
+# This is the solution of Chapter 5.
+
+# Answer for Exercise 1 -
+
+# Program – 
+person = {'first_name': 'evita','last_name': 'dmello','age': 18,'city': 'dubai'}
+
+print(person['first_name'])
+print(person['last_name'])
+print(person['age'])
+print(person['city'])
+
+# Output –
+evita
+dmello
+18
+dubai
+
+# Answer for Exercise 2 -
+
+# Program – 
+glossary = {
+    'string': 'String is a collection of alphabets,words or other characters.',
+    'variable': 'A python variable is a symbolic name that is a reference or pointer to an object.',
+    'list': 'Lists are used to store multiple items in a single variable.',
+    'loop': 'Python for loops are used to loop through an iterable object(like a list,tuple,set,etc)and perform the same action for each entry .',
+    'dictionary': "Dictionaries are used to store data values in key:value pairs.",
+    }
+
+word = 'string'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'variable'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'list'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'loop'
+print(f"\n{word.title()}: {glossary[word]}")
+
+word = 'dictionary'
+print(f"\n{word.title()}: {glossary[word]}")
+
+# Output –
+String: String is a collection of alphabets,words or other characters.
+
+Variable: A python variable is a symbolic name that is a reference or pointer to an object.
+
+List: Lists are used to store multiple items in a single variable.
+
+Loop: Python for loops are used to loop through an iterable object(like a list,tuple,set,etc)and perform the same action for each entry .
+
+Dictionary: Dictionaries are used to store data values in key:value pairs.
+
+# Answer for Exercise 3 -
+
+# Program –
+glossary = {
+    'string': 'String is a collection of alphabets,words or other characters.',
+    'variable': 'A python variable is a symbolic name that is a reference or pointer to an object.',
+    'list': 'Lists are used to store multiple items in a single variable.',
+    'loop': 'Python for loops are used to loop through an iterable object(like a list,tuple,set,etc)and perform the same action for each entry .',
+    'dictionary': "Dictionaries are used to store data values in key:value pairs.",
+    'key': 'The first item in a key-value pair.',
+    'value': 'An item associated with a key in a dictionary.',
+    'comments': 'Comments in Python is the inclusion of short descriptions along with the code to increase its readability.',
+    'float': 'Float is a method that returns a floating-point number for a provided number or string.',
+    'boolean expression': 'The python boolean type is one of the built in data types. It is used to represent truth value of an expression.',
+    }
+
+for word, definition in glossary.items():
+    print(f"\n{word.title()}: {definition}")
+
+# Output –
+String: String is a collection of alphabets,words or other characters.
+
+Variable: A python variable is a symbolic name that is a reference or pointer to an object.
+
+List: Lists are used to store multiple items in a single variable.
+
+Loop: Python for loops are used to loop through an iterable object(like a list,tuple,set,etc)and perform the same action for each entry .
+
+Dictionary: Dictionaries are used to store data values in key:value pairs.
+
+Key: The first item in a key-value pair.
+
+Value: An item associated with a key in a dictionary.
+
+Comments: Comments in Python is the inclusion of short descriptions along with the code to increase its readability.
+
+Float: Float is a method that returns a floating-point number for a provided number or string.
+
+Boolean Expression: The python boolean type is one of the built in data types. It is used to represent truth value of an expression.
+
+# Answer for Exercise 4 -
+
+# Program –
+rivers = {'Yangtze River': 'China','Danube River': 'Europe','Ganges River': 'India'}
+
+for river, country in rivers.items():
+    print(f"The {river.title()} flows through {country.title()}.")
+
+print("\nThe following rivers are included in this data set:")
+for river in rivers.keys():
+    print(f"{river.title()}")
+
+print("\nThe following countries are included in this data set:")
+for country in rivers.values():
+    print(f"{country.title()}")
+
+# Output –   
+The Yangtze River flows through China.
+The Danube River flows through Europe.
+The Ganges River flows through India.
+
+The following rivers are included in this data set:
+Yangtze River
+Danube River
+Ganges River
+
+The following countries are included in this data set:
+China
+Europe
+India 
+
+
+
