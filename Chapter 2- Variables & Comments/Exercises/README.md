@@ -7,7 +7,7 @@ Once you have completed your solution you should make sure you commit and push y
 
 &nbsp;
 
-## Exercise 1: Variables:ballot_box_with_check:
+## Exercise 1: Variables :ballot_box_with_check:
 
 Type out the code below and add the correct data types to complete the variables
 
