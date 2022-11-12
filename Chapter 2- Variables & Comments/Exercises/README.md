@@ -44,6 +44,7 @@ Then print the name using each of the three stripping functions, lstrip(), rstri
 &nbsp;
 &nbsp;
 &nbsp;
+
 ## Exercise 4: Favorite Number :ballot_box_with_check:
 Use a variable to represent your favorite number. Then,using that variable, create a message that reveals your favorite number. Print
 that message.
@@ -59,6 +60,32 @@ A girl heads to a computer shop to buy some USB sticks. She loves USB sticks and
 Write a programme that calculates how many USB sticks she can buy and how many pounds she will have left.
 
 You will to use the arithmetic operators to complete this exercise.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 6: Tip Calculator :ballot_box_with_check:
+
+When you go out to eat, you always tip 20% of the bill amount. But who’s got the time to calculate the right tip amount every time? Write a program to calculate tips and save some time.
+The program needs to take the bill amount as input and output the tip as a float.
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 7: Working with Input :ballot_box_with_check:
+
+Write a program to take x and y as input and output the string x, repeated y times.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 8: Area of Rectangle :ballot_box_with_check:
+
+Write a program to find the area of a rectangle by taking the numbers from the user.
 
 &nbsp;
 &nbsp;
@@ -142,6 +169,48 @@ print(pounds_left)
 # Output – 
 8.333333333333334
 2
+
+# Answer for Exercise 6 -
+
+# Program –
+bill = int(input("please enter the amount"))
+x=20
+y=100
+tip=(bill*int(x)/int(y))
+print(float(tip))
+
+# Output – 
+please enter the amount80
+16.0
+
+# Answer for Exercise 7 -
+
+# Program –
+x = str(input("Please enter a message"))
+y = int(input("Please enter a number"))
+print(x * y)
+
+# Output – 
+Please enter a message Python is fun
+Please enter a number 4
+Python is fun Python is fun Python is fun Python is fun
+ 
+# Answer for Exercise 8 -
+
+# Program –
+width = int(input("Please enter a number"))
+height = int(input("Please enter a number"))
+area = int(width) * int(height)
+print(area)
+
+# Output – 
+Please enter a number 9
+Please enter a number 8
+72
+
+
+
+
 
 
 
