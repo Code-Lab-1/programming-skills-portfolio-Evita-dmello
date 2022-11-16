@@ -91,6 +91,14 @@ Write a program to find the area of a rectangle by taking the numbers from the u
 &nbsp;
 &nbsp;
 
+## Exercise 9: In - place operators :ballot_box_with_check:
+
+Solve the following in-place operators by using any of the numerical operation (+, -, *, /, %, **, //).
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 # This is the solution of Chapter 2.
 
 # Answer for Exercise 1 -
