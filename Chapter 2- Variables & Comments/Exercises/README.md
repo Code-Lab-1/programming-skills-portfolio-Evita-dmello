@@ -99,6 +99,14 @@ Solve the following in-place operators by using any of the numerical operation (
 &nbsp;
 &nbsp;
 
+## Exercise 10: In - place operators :ballot_box_with_check:
+
+Solve the following in-place operators by using any of the numerical operation (+, -, *, /, %, **, //).
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 # This is the solution of Chapter 2.
 
 # Answer for Exercise 1 -
@@ -216,7 +224,55 @@ Please enter a number 9
 Please enter a number 8
 72
 
+# Answer for Exercise 9 -
 
+# Program –
+x = 8
+
+x -= 2
+print(x)
+
+x /= 3
+print(x)
+
+x **= 5
+print(x)
+
+x+=8
+print(x)
+
+x*=2
+print(x)
+
+x%=64
+print(x)
+
+x//=40
+print(x)
+
+# Output – 
+6
+2.0
+32.0
+40.0
+80.0
+16.0
+0.0
+
+# Answer for Exercise 10 -
+
+# Program –
+name = "Evita D Mello"
+age= "18"
+contact_number= "0560000000"
+email = "evitadmello@gmail.com"
+department= "Creative Computing"
+level= "Bachelors"
+
+print(name)
+print(age)
+print(contact_name)
+print(email)
 
 
 
