@@ -1,0 +1,12 @@
+Answer for Exercise 4 -
+
+Program –
+a = 'hello'
+b = 'python'
+c = 'here'
+print(a + b + c) # Prints without a space print(a,b,c) 
+                 # prints with space
+
+Output –
+hellopythonhere 
+hello python here
