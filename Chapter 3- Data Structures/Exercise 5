@@ -1,0 +1,33 @@
+Answer for Exercise 5 -
+
+Program -
+guests = ['Angela', 'Rujeth', 'Shyra']
+
+name = guests[0].title() print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[1].title() print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[2].title() print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[0].title() print("\nSorry, " + name + " can't make it to dinner.")
+
+# Angela can't make it! Let's invite Harshita instead.
+del(guests[0]) guests.insert(0, 'Harshita')
+
+# Print the invitations again.
+name = guests[0].title() print("\n" + name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[1].title() print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+name = guests[2].title() print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
+Output –
+Angela, This is an invite for dinner at my place. Please do come with your family. 
+Rujeth, This is an invite for dinner at my place. Please do come with your family. 
+Shyra, This is an invite for dinner at my place. Please do come with your family.
+
+Sorry, Angela can't make it to dinner.
+
+Harshita, This is an invite for dinner at my place. Please do come with your family. 
+Rujeth, This is an invite for dinner at my place. Please do come with your family. 
+Shyra, This is an invite for dinner at my place. Please do come with your family.
