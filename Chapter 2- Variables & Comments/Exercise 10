@@ -1,0 +1,24 @@
+Answer for Exercise 10 -
+
+Program –
+name = "Evita D Mello" 
+age= "18" 
+contact_number= "0560000000" 
+email = "evitadmello@gmail.com" 
+department= "Creative Computing" 
+level= "Bachelors"
+
+print(name) 
+print(age) 
+print(contact_name) 
+print(email) 
+print(department) 
+print(level)
+
+Output
+Evita D Mello 
+18 
+0560000000 
+evitadmello@gmail.com 
+Creative Computing 
+Bachelors
