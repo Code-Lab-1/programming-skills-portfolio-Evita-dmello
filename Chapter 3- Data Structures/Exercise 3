@@ -1,0 +1,17 @@
+Answer for Exercise 3 -
+
+Program -
+favorite_transportation = ['motorcycle', 'bus', 'car', 'private jet', 'van']
+
+print("I would like to own a {}".format(favorite_transportation[0])) 
+print("I would like to travel school by {}".format(favorite_transportation[1])) 
+print("I would like to go for a picnic by {}".format(favorite_transportation[2])) 
+print("I would like to travel the world by a {}".format(favorite_transportation[3])) 
+print("I would like to visit different emirates by a {}".format(favorite_transportation[4]))
+
+Output –
+I would like to own a motorcycle 
+I would like to travel school by bus 
+I would like to go for a picnic by car 
+I would like to travel the world by a private jet
+I would like to visit different emirates by a van
