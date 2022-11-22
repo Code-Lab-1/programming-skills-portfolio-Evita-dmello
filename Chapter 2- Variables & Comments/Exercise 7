@@ -1,0 +1,11 @@
+Answer for Exercise 7 -
+
+Program –
+x = str(input("Please enter a message")) 
+y = int(input("Please enter a number"))
+print(x * y)
+
+Output –
+Please enter a message Python is fun 
+Please enter a number 4 
+Python is fun Python is fun Python is fun Python is fun

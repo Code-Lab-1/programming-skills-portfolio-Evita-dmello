@@ -1,0 +1,13 @@
+Answer for Exercise 8 -
+
+Program –
+width = int(input("Please enter a number")) 
+height = int(input("Please enter a number")) 
+area = int(width) * int(height) 
+print(area)
+
+Output –
+Please enter a number 9 
+Please enter a number 8 
+72
+
