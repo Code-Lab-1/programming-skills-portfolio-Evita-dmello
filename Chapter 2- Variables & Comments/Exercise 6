@@ -1,0 +1,12 @@
+Answer for Exercise 6 -
+
+Program –
+bill = int(input("please enter the amount")) 
+x=20 
+y=100 
+tip=(bill*int(x)/int(y)) 
+print(float(tip))
+
+Output –
+please enter the amount80
+16.0
