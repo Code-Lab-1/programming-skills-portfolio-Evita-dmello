@@ -99,9 +99,9 @@ Solve the following in-place operators by using any of the numerical operation (
 &nbsp;
 &nbsp;
 
-## Exercise 10: In - place operators :ballot_box_with_check:
+## Exercise 10: Printing your Information :ballot_box_with_check:
 
-Solve the following in-place operators by using any of the numerical operation (+, -, *, /, %, **, //).
+Write a program to print your basic information.
 
 &nbsp;
 &nbsp;
@@ -273,6 +273,16 @@ print(name)
 print(age)
 print(contact_name)
 print(email)
+print(department)
+print(level)
+
+# Output
+Evita D Mello
+18
+0560000000
+evitadmello@gmail.com
+Creative Computing
+Bachelors
 
 
 
