@@ -1,0 +1,16 @@
+Answer for Exercise 2 -
+
+Program –
+names = ['Angela', 'Rujeth', 'Shyra']
+
+msg = "Hello, Good Morning " + names[0].title() + "!" print(msg)
+
+msg = "Hello, Good Morning " + names[1].title() + "!" print(msg)
+
+msg = "Hello, Good Morning " + names[2].title() + "!" print(msg)
+
+Output –
+Hello, Good Morning Angela! 
+Hello, Good Morning Rujeth! 
+Hello, Good Morning Shyra!
+
