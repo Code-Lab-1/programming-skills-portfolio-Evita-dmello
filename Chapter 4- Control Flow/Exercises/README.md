@@ -79,6 +79,28 @@ Make a list of your favorite fruits, and then write a series of independent if s
 should print a statement,such as You really like bananas!
 
 
+&nbsp;
+&nbsp;
+
+## Exercise 6: Hello Admin :ballot_box_with_check:
+
+Make a list of five or more usernnames, including the name 'admin'. Write a code that will print a greeting to each user after they log in to a website. Loop through the list, and print a greeting to each user:
+
+If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+Otherwise, print a greeting, such as Hello Tina, thank you for loggin in again.
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: No Users :ballot_box_with_check:
+
+Make a list of five or more usernnames, including the name 'admin'. Write a code that will print a greeting to each user after they log in to a website. Loop through the list, and print a greeting to each user:
+
+If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+Otherwise, print a greeting, such as Hello Tina, thank you for loggin in again.
+
+
 # This is the solution of Chapter 4.
 
 # Answer for Exercise 1 -
@@ -189,6 +211,25 @@ if 'apples' in favorite_fruits:
 # Output –   
 You really like bananas!
 You really like mangoes!
-You really like apples!  
+You really like apples! 
+
+# Answer for Exercise 6 -
+
+# Program –
+usernames = ['Tina', 'Priyakya', 'Admin', 'Shyra', 'Angela']
+
+for username in usernames:
+    if username == 'Admin':
+        print("Hello Admin, would you like to see a status report?")
+    else:
+        print(f"Hello {username}, thank you for loggin in again!")
+
+# Output – 
+Hello Tina, thank you for loggin in again!
+Hello Priyakya, thank you for loggin in again!
+Hello Admin, would you like to see a status report?
+Hello Shyra, thank you for loggin in again!
+Hello Angela, thank you for loggin in again!  
+
 
 
