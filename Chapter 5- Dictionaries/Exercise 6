@@ -1,0 +1,36 @@
+Answer for Exercise 6 -
+
+Program –
+favorite_languages = {
+    'Evita': 'Python',
+    'Shyra': 'Thonny',
+    'Rujeth': 'C++',
+    'Angela': 'Java Script',
+    }
+
+for name, language in favorite_languages.items():
+    print(f"{name.title()}'s favorite language is {language.title()}.")
+
+print("\n")
+
+coders = ['Evita', 'Joshua', 'David', 'Shyra', 'Sarah', 'Rujeth', 'Angela']
+for coder in coders:
+    if coder in favorite_languages.keys():
+        print(f"Thank you for taking the poll, {coder.title()}!")
+    else:
+        print(f"{coder.title()}, what's your favorite programming language?")
+        
+Output - 
+Evita's favorite language is Python.
+Shyra's favorite language is Thonny.
+Rujeth's favorite language is C++.
+Angela's favorite language is Java Script.
+
+
+Thank you for taking the poll, Evita!
+Joshua, what's your favorite programming language?
+David, what's your favorite programming language?
+Thank you for taking the poll, Shyra!
+Sarah, what's your favorite programming language?
+Thank you for taking the poll, Rujeth!
+Thank you for taking the poll, Angela! 
