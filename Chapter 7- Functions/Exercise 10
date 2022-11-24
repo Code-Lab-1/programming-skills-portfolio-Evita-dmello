@@ -1,0 +1,23 @@
+Answer for Exercise 10 -
+
+Program –
+def make_car(manufacturer, model, **options):
+    """Make a dictionary representing a car."""
+    car_dict = {
+        'manufacturer': manufacturer.title(),
+        'model': model.title(),
+        }
+    for option, value in options.items():
+        car_dict[option] = value
+
+    return car_dict
+
+my_outback = make_car('Maruti Suzuki', 'Outback', color='Red', tow_package=True)
+print(my_outback)
+
+my_old_accord = make_car('Honda', 'Accord', year=1991, color='Silver',headlights='Popup')
+print(my_old_accord)
+
+Output - 
+{'manufacturer': 'Maruti Suzuki', 'model': 'Outback', 'color': 'Red', 'tow_package': True}
+{'manufacturer': 'Honda', 'model': 'Accord', 'year': 1991, 'color': 'Silver', 'headlights': 'Popup'}
