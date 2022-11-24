@@ -55,4 +55,12 @@ Call your function for three different cities, at least one of which is not in t
 &nbsp;
 &nbsp;
 
+## Exercise 6: Messages
+
+Make a list containing a series of short text messages. Pass the list to a function called show_messages(), which prints each text message.
+
+
+&nbsp;
+&nbsp;
+
 
