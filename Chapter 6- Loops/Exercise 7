@@ -1,0 +1,17 @@
+Answer for Exercise 7 -
+
+Program –
+dinner_group = int(input("Please enter how many people are there in today's dinner party."))
+
+if dinner_group > 5:
+    print("I am sorry, but you will have to wait for a table for a while")
+else:
+    print("Your table is ready")
+    
+Output -     
+Please enter how many people are there in today's dinner party.7
+I am sorry, but you will have to wait for a table for a while
+>>> 
+Please enter how many people are there in today's dinner party.4
+Your table is ready
+>>>
