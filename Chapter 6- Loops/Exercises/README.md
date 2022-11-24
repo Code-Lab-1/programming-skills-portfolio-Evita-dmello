@@ -71,5 +71,12 @@ Write a program that asks the users how many people are there in their dinner gr
 &nbsp;
 &nbsp;
 
+## Exercise 8: Multiple of 10 :ballot_box_with_check:
+
+Write a program that asks the users for a number, and then check whether the number is a multiple of 10 or not.
+
+&nbsp;
+&nbsp;
+
 
 
