@@ -78,5 +78,12 @@ Write a program that asks the users for a number, and then check whether the num
 &nbsp;
 &nbsp;
 
+## Exercise 9: Dream Place :ballot_box_with_check:
+
+Write a program that asks the users about their dream vacation. Write a prompt similiar to If you could visit one place in the world, where would you go? Include a block of code that prints the results.
+
+&nbsp;
+&nbsp;
+
 
 
