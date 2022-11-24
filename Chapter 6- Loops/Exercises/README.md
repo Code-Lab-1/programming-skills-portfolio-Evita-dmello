@@ -57,4 +57,19 @@ occurrences of 'pastrami' from sandwich_orders. Make sure no pastrami sandwiches
 &nbsp;
 &nbsp;
 
+## Exercise 6: Rent a Car :ballot_box_with_check:
+
+Write a program that asks the user which rental car they would prefer. Print a message about that car, such as "Let me see if I can find your Maruti Suzuki".
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: Restaurant Seating :ballot_box_with_check:
+
+Write a program that asks the users how many people are there in their dinner group. If the number of people are more than 5, print a message saying that they will have to wait for a table. If the number of people are below 5, print a message your table is ready.
+
+&nbsp;
+&nbsp;
+
+
 
