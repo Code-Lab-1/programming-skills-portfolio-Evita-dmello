@@ -1,0 +1,42 @@
+Answer for Exercise 7 -
+
+Program –
+def make_sandwich(*items):
+    """Make a sandwich with the given items."""
+    print("\nI'll make you a great sandwich:")
+    for item in items:
+        print(f"  ...adding {item} to your sandwich.")
+    print("Your sandwich is ready!")
+
+make_sandwich('Yogurt & Mayo','Red Pepper', 'Shallot & Garlic' ,'Lemon', 'Coriander',' Tomato Puree')
+make_sandwich('Paneer', 'Carrot', 'Capsicum','Corn','Green Chutney')
+make_sandwich('Onion', 'Corn','Carrot','Capsicum','Spinach','Tomato Sauce','Green Chutney','Mozzarella Cheese')
+
+Output - 
+I'll make you a great sandwich:
+  ...adding Yogurt & Mayo to your sandwich.
+  ...adding Red Pepper to your sandwich.
+  ...adding Shallot & Garlic to your sandwich.
+  ...adding Lemon to your sandwich.
+  ...adding Coriander to your sandwich.
+  ...adding  Tomato Puree to your sandwich.
+Your sandwich is ready!
+
+I'll make you a great sandwich:
+  ...adding Paneer to your sandwich.
+  ...adding Carrot to your sandwich.
+  ...adding Capsicum to your sandwich.
+  ...adding Corn to your sandwich.
+  ...adding Green Chutney to your sandwich.
+Your sandwich is ready!
+
+I'll make you a great sandwich:
+  ...adding Onion to your sandwich.
+  ...adding Corn to your sandwich.
+  ...adding Carrot to your sandwich.
+  ...adding Capsicum to your sandwich.
+  ...adding Spinach to your sandwich.
+  ...adding Tomato Sauce to your sandwich.
+  ...adding Green Chutney to your sandwich.
+  ...adding Mozzarella Cheese to your sandwich.
+Your sandwich is ready!
