@@ -1,0 +1,39 @@
+Answer for Exercise 10 -
+
+Program –
+words= ["Apple", "Banana", "Car", "Dolphin" ]
+for word in words:
+    print ("The following lines will print each letters of "+word)
+    for letter in word:
+        print (letter)
+    print("")#This print is used to print a blank line 
+
+Output - 
+The following lines will print each letters of Apple
+A
+p
+p
+l
+e
+
+The following lines will print each letters of Banana
+B
+a
+n
+a
+n
+a
+
+The following lines will print each letters of Car
+C
+a
+r
+
+The following lines will print each letters of Dolphin
+D
+o
+l
+p
+h
+i
+n
