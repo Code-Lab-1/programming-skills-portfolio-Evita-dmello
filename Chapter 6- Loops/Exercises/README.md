@@ -85,5 +85,12 @@ Write a program that asks the users about their dream vacation. Write a prompt s
 &nbsp;
 &nbsp;
 
+## Exercise 10: Printing the letters separately :ballot_box_with_check:
+
+Write a program that print each letter in a word.
+
+&nbsp;
+&nbsp;
+
 
 
