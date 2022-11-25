@@ -1,7 +1,7 @@
 Answer for Exercise 6 -
 
 Program –
-car= int(input('Enter the car you would prefer'))
+car= input('Enter the car you would prefer')
 print(f'Let me check if I can find your {car.title()}.')
 
 Output - 
