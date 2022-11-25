@@ -93,7 +93,41 @@ Otherwise, print a greeting, such as Hello Tina, thank you for loggin in again.
 &nbsp;
 &nbsp;
 
-## Exercise 7: No Users :ballot_box_with_check:
+## Exercise 7: Boiling Water :ballot_box_with_check:
+
+Write a program that checks if the water is boiling. Take the integer temperature in Celsius as input and output "Boiling" if the temperature is above or equal to 100.
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 8: Age Control :ballot_box_with_check:
+
+Write a program to control entrance to a club. Only people who are 18 or older are allowed to enter the club. Your program takes the age of the person who tries to enter, and outputs "Allowed" if they are allowed to enter the club, and "Sorry" if they are younger than the allowed age.
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Call it even :ballot_box_with_check:
+
+You are given a program that outputs all the numbers from 0 to 10. Change the code to make it output only the even numbers.
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 10: Age Group :ballot_box_with_check:
+
+Given the age of a person as an input, output their age group.
+
+Here are the age groups you need to handle:
+Child: 0 to 11
+Teen: 12 to 17
+Adult: 18 to 64
+
+&nbsp;
+&nbsp;
 
 
 
