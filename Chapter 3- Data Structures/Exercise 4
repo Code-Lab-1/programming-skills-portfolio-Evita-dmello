@@ -3,11 +3,15 @@ Answer for Exercise 4 -
 Program -
 guests = ['Angela', 'Rujeth', 'Shyra']
 
-name = guests[0].title() print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+name = guests[0].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
 
-name = guests[1].title() print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+name = guests[1].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
 
-name = guests[2].title() print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+name = guests[2].title()
+print(name + ", This is an invite for dinner at my place. Please do come with your family.")
+
 
 Output –
 Angela, This is an invite for dinner at my place. Please do come with your family. 
