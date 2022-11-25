@@ -1,15 +1,18 @@
 Answer for Exercise 3 -
 
 Program –
-x= "Ears"
+x=("Ears")
 while True:
-    print(x)
+    print("Ears")
 
-Output - 
+Output
 Ears
 Ears
 Ears
 Ears
 Ears
 Ears
-
+Ears
+Ears
+Ears
+Ears....
