@@ -1,0 +1,25 @@
+Answer for Exercise 10 -
+
+Program –
+age = int(input("Please enter your age"))
+if age>=0 and age<=11 :
+    print("Child")
+elif age>=12 and age<=17:
+    print("Teen")
+elif age>=18 and age<=64:
+    print("Adult")
+else:
+    print("Invalid input")
+    
+Output - 
+Please enter your age18
+Adult
+>>> 
+Please enter your age14
+Teen
+>>> 
+Please enter your age8
+Child
+>>> 
+Please enter your age67
+Invalid input
