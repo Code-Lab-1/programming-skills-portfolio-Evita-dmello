@@ -1,0 +1,15 @@
+Answer for Exercise 8 -
+
+Program –
+age = int(input("Please enter your age"))
+if age>= 18:
+   print("Allowed")
+else:
+   print("Sorry")
+
+Output - 
+Please enter your age17
+Sorry
+>>> 
+Please enter your age22
+Allowed

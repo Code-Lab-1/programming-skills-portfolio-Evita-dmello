@@ -1,0 +1,21 @@
+Answer for Exercise 5 -
+
+Program –
+favorite_fruits = ['apples', 'bananas', 'mangoes']
+
+if 'bananas' in favorite_fruits: 
+print("You really like bananas!") 
+if 'oranges' in favorite_fruits: 
+print("You really like oranges!") 
+if 'mangoes' in favorite_fruits: 
+print("You really like mangoes!") 
+if 'kiwis' in favorite_fruits: 
+print("You really like kiwis!") 
+if 'apples' in favorite_fruits: 
+print("You really like apples!")
+
+Output –
+You really like bananas! 
+You really like mangoes! 
+You really like apples!
+

@@ -1,0 +1,11 @@
+Answer for Exercise 1 -
+
+Program –
+message = "Python is very interesting." 
+print(message)
+message = "I love learning it!" 
+print(message)
+
+Output –
+Python is very interesting. 
+I love learning it!

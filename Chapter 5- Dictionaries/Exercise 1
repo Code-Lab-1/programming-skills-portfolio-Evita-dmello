@@ -1,0 +1,16 @@
+Answer for Exercise 1 -
+
+Program –
+person = {'first_name': 'evita','last_name': 'dmello','age': 18,'city': 'dubai'}
+
+print(person['first_name'])
+print(person['last_name'])
+print(person['age'])
+print(person['city'])
+
+Output –
+evita
+dmello
+18
+dubai
+

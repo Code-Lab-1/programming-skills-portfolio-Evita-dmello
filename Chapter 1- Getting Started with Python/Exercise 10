@@ -1,0 +1,25 @@
+Answer for Exercise 10 -
+
+Program –
+subject1 = int(input("Enter your English marks")) 
+subject2 = int(input("Enter your Business marks")) 
+subject3 = int(input("Enter your Marketing marks")) 
+subject4 = int(input("Enter your Accounts marks")) 
+subject5 = int(input("Enter your Informatics marks"))
+
+sum = subject1+subject2+subject3+subject4+subject5 
+average = sum/5 
+percent = (sum/500)*100
+print(end="Average Mark = ") 
+print(average) 
+print(end="Percentage Mark = ") 
+print(percent)
+
+Output –
+Enter your English marks78 
+Enter your Business marks88 
+Enter your Marketing marks91
+Enter your Accounts marks80 
+Enter your Informatics marks97 
+Average Mark = 86.8 
+Percentage Mark = 86.8

@@ -1,0 +1,20 @@
+Answer for Exercise 8 -
+
+Program –
+def city_country(city, country):
+    """Return a string like 'Santiago, Chile'."""
+    return f"{city.title()}, {country.title()}"
+
+city = city_country('London', 'UK')
+print(city)
+
+city = city_country('Paris', 'France')
+print(city)
+
+city = city_country('New York', 'USA')
+print(city)
+
+Output - 
+London, Uk
+Paris, France
+New York, Usa

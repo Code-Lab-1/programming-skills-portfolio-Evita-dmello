@@ -36,7 +36,9 @@ Write a Python program to display the current date and time.
 &nbsp;
 &nbsp;
 &nbsp;
+
 ## Exercise 4: Strings Concatination :ballot_box_with_check:
+
 Write three strings in different variables and print the output as one string.
 &nbsp;
 &nbsp;
@@ -49,4 +51,54 @@ Write a Python program which accepts the radius of a circle from the user and co
 &nbsp;
 &nbsp;
 &nbsp;
+
+## Exercise 6: Arithmetic Operation :ballot_box_with_check:
+
+Write a program to enter two integers and print their sum. (Addition)
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 7: Arithmetic Operation :ballot_box_with_check:
+
+Write a program to enter two integers and print their difference. (Subtraction)
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 8: Arithmetic Operation  :ballot_box_with_check:
+
+Write a program to enter two integers and print their product. (Multiplication)
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 9: Arithmetic Operation  :ballot_box_with_check:
+
+Write a program to enter two integers and print their quotient and remainder. (Division)
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 10: Average and Percentage  :ballot_box_with_check:
+
+Write a python program which accepts marks obtained in 5 subjects and calculate the average and percentage marks obtained in 5 subjects.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+
+
+
+
+
+
 

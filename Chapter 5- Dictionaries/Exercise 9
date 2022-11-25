@@ -1,0 +1,29 @@
+Answer for Exercise 9 -
+
+Program –
+favorite_places = {
+    'Shyra': ['Alleppey – The Venice Of The East', 'Goa – The Land Of Beaches', 'Pondicherry – The French Town'],
+    'Rujeth': ['Gokarna – The Less Crowded Goa', 'Rishikesh – The Yoga Capital', 'Darjeeling – The Land Of Thunderbolt'],
+    'Angela': ['McLeodganj – The Little Lhasa', 'Sikkim – The Organic State', 'Hawaii'],
+    }
+
+for name, places in favorite_places.items():
+    print(f"\n{name.title()} likes the following places:")
+    for place in places:
+        print(f"- {place.title()}")
+        
+Output - 
+Shyra likes the following places:
+- Alleppey – The Venice Of The East
+- Goa – The Land Of Beaches
+- Pondicherry – The French Town
+
+Rujeth likes the following places:
+- Gokarna – The Less Crowded Goa
+- Rishikesh – The Yoga Capital
+- Darjeeling – The Land Of Thunderbolt
+
+Angela likes the following places:
+- Mcleodganj – The Little Lhasa
+- Sikkim – The Organic State
+- Hawaii

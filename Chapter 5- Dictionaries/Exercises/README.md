@@ -61,9 +61,64 @@ Make several dictionaries, where each dictionary represents a different pet. In 
 
 owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and asyou do, print everything you know about 
 
-each pet
+each pet.
 
+&nbsp;
+&nbsp;
 
+## Exercise 6: Favorite Language Poll :ballot_box_with_check:
+
+Make a list of people who should take the favorite languages poll. Include some names that are already in the dictionary and some that are 
+
+not.
+
+Loop through the list of people who should take the poll. If they have already taken the poll, print a message thanking them for 
+
+responding. If they have not yet taken the poll, print a message inviting them to take the poll.
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: Favorite Numbers :ballot_box_with_check:
+
+Use a dictionary to store people’s favorite numbers. Think of five names, and use them as keys in your dictionary. Think of a favorite
+
+number for each person, and store each as a value in your dictionary. Print each person’s name and their favorite number. For even more 
+
+fun, poll a few friends and get some actual data for your program.
+
+&nbsp;
+&nbsp;
+
+## Exercise 8: Favorite Numbers 2 :ballot_box_with_check:
+
+Modify your program from Exercise 7 so each person can have more than one favorite number. Then print each person’s name along with their 
+
+favorite numbers.
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Favorite Places :ballot_box_with_check:
+
+Make a dictionary called favorite_places. Think of three names to use as keys in the dictionary, and store one to three favorite places for 
+
+each person. To make this exericse a bit more interesting, ask some friends to name a few of their favorite places. Loop through the 
+
+dictionary, and print each person’s name and their favorite places.
+
+&nbsp;
+&nbsp;
+
+## Exercise 10: Cities :ballot_box_with_check:
+
+Make a dictionary called cities. Use the names of three cities as keys in your dictionary. Create a dictionary of information about each 
+
+city and include the country that the city is in, its approximate population, and one fact about that city. The keys for each city’s 
+
+dictionary should be something like country, population, and fact. Print the name of each city and all of the information you have stored 
+
+about it.
 
 &nbsp;
 &nbsp;

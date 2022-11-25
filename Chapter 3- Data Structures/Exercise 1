@@ -1,0 +1,13 @@
+Answer for Exercise 1 -
+
+Program –
+names = ['Angela', 'Rujeth', 'Shyra'] 
+print(names[0]) 
+print(names[1]) 
+print(names[2])
+
+Output –
+Angela 
+Rujeth
+Shyra
+

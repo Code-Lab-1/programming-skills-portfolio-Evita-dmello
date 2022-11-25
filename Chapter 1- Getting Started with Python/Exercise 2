@@ -1,0 +1,9 @@
+Answer for Exercise 2 -
+
+Program –
+import sys 
+print("Python version") 
+print (sys.version)
+
+Output –
+Python version 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]

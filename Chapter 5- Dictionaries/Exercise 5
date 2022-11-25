@@ -1,0 +1,61 @@
+Answer for Exercise 5 -
+
+Program – 
+# empty list
+pets = []
+
+# Make individual pets, and store each one in the list.
+pet = {
+    'animal type': 'cat',
+    'name': 'lilly',
+    'owner': 'lisa',
+    'weight': '4kg',
+    'eats': 'fish',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'fish',
+    'name': 'goldie',
+    'owner': 'tiffany',
+    'weight': '2kg',
+    'eats': 'fish food',
+}
+pets.append(pet)
+
+pet = {
+    'animal type': 'dog',
+    'name': 'rocky',
+    'owner': 'eric',
+    'weight': '37kg',
+    'eats': 'bones',
+}
+pets.append(pet)
+
+# Display information about each pet.
+for pet in pets:
+    print(f"\nHere's what I know about {pet['name'].title()}:")
+    for key, value in pet.items():
+        print(f"\t{key}: {value}")
+
+Output - 
+Here's what I know about Lilly:
+	animal type: cat
+	name: lilly
+	owner: lisa
+	weight: 4kg
+	eats: fish
+
+Here's what I know about Goldie:
+	animal type: fish
+	name: goldie
+	owner: tiffany
+	weight: 2kg
+	eats: fish food
+
+Here's what I know about Rocky:
+	animal type: dog
+	name: rocky
+	owner: eric
+	weight: 37kg
+	eats: bones

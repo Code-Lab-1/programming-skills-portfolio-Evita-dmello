@@ -1,0 +1,11 @@
+Answer for Exercise 3 -
+
+Program -
+import datetime now = datetime.datetime.now() 
+print("now=",now)
+print ("Current date and time : ") 
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
+Output –
+now= 2022-10-08 12:17:28.817432 
+Current date and time : 2022-10-08 12:17:28

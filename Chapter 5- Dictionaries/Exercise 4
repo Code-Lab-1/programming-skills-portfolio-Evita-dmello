@@ -1,0 +1,30 @@
+Answer for Exercise 4 -
+
+Program –
+rivers = {'Yangtze River': 'China','Danube River': 'Europe','Ganges River': 'India'}
+
+for river, country in rivers.items(): 
+print(f"The {river.title()} flows through {country.title()}.")
+
+print("\nThe following rivers are included in this data set:") 
+for river in rivers.keys(): 
+print(f"{river.title()}")
+
+print("\nThe following countries are included in this data set:") 
+for country in rivers.values(): 
+print(f"{country.title()}")
+
+Output –
+The Yangtze River flows through China. 
+The Danube River flows through Europe. 
+The Ganges River flows through India.
+
+The following rivers are included in this data set: 
+Yangtze River 
+Danube River 
+Ganges River
+
+The following countries are included in this data set: 
+China 
+Europe 
+India

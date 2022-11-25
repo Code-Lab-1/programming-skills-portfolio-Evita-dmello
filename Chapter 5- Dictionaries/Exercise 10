@@ -1,0 +1,42 @@
+Answer for Exercise 10 -
+
+Program –
+cities = {
+    'London': {
+        'country': 'England',
+        'population': '8.982 million',
+        'nearby mountains': 'Shooters Hill',
+        },
+    'Paris': {
+        'country': 'France',
+        'population': '2.161 million',
+        'nearby mountains': 'Montmartre',
+        },
+    'New York City': {
+        'country': 'United States',
+        'population': '8.468 million',
+        'nearby mountains': 'Catskills',
+        }
+    }
+
+for city, city_info in cities.items():
+    country = city_info['country'].title()
+    population = city_info['population']
+    mountains = city_info['nearby mountains'].title()
+
+    print(f"\n{city.title()} is in {country}.")
+    print(f"  It has a population of about {population}.")
+    print(f"  The {mountains} mounts are nearby.")
+    
+Output - 
+London is in England.
+  It has a population of about 8.982 million.
+  The Shooters Hill mounts are nearby.
+
+Paris is in France.
+  It has a population of about 2.161 million.
+  The Montmartre mounts are nearby.
+
+New York City is in United States.
+  It has a population of about 8.468 million.
+  The Catskills mounts are nearby.
