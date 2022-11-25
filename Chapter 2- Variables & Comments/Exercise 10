@@ -10,7 +10,7 @@ level= "Bachelors"
 
 print(name) 
 print(age) 
-print(contact_name) 
+print(contact_number) 
 print(email) 
 print(department) 
 print(level)
