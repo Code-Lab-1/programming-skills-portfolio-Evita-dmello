@@ -1,0 +1,16 @@
+Answer for Exercise 5 -
+
+Program –
+def describe_city(city, country='United States of America'):
+    """Describe a city."""
+    msg = f"{city.title()} is in {country.title()}."
+    print(msg)
+
+describe_city('New York')
+describe_city('London', 'United Kingdom')
+describe_city('Chicago')
+
+Output - 
+New York is in United States Of America.
+London is in United Kingdom.
+Chicago is in United States Of America.

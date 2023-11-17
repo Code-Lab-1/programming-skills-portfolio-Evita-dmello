@@ -1,0 +1,32 @@
+Answer for Exercise 7 -
+
+Program –
+favorite_numbers = {
+    'Nica': 14,
+    'Evita': 3,
+    'Shyra': 18,
+    'Rujeth': 27,
+    'Angela': 19,
+    }
+
+num = favorite_numbers['Nica']
+print(f"Nica's favorite number is {num}.")
+
+num = favorite_numbers['Evita']
+print(f"Evita's favorite number is {num}.")
+
+num = favorite_numbers['Shyra']
+print(f"Shyra's favorite number is {num}.")
+
+num = favorite_numbers['Rujeth']
+print(f"Rujeth's favorite number is {num}.")
+
+num = favorite_numbers['Angela']
+print(f"Angela's favorite number is {num}.")
+
+Output - 
+Nica's favorite number is 14.
+Evita's favorite number is 3.
+Shyra's favorite number is 18.
+Rujeth's favorite number is 27.
+Angela's favorite number is 19.

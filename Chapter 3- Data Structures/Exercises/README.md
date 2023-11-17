@@ -9,9 +9,7 @@ Once you have completed your solution you should make sure you commit and push y
 
 ## Exercise 1: Names :ballot_box_with_check:
 
-Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a
-
- time.
+Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a time.
 
 
 
@@ -106,3 +104,23 @@ Think of at least five places in the world you’d like to visit.
 &nbsp;
 
 
+## Exercise 8: Slicing :ballot_box_with_check:
+
+Write a program to slice the letters in the word.
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Sorting :ballot_box_with_check:
+
+Write a program to sort the numbers in ascending order.
+
+&nbsp;
+&nbsp;
+
+## Exercise 8: Reverse :ballot_box_with_check:
+
+Write a program to reverse the numbers.
+
+&nbsp;
+&nbsp;

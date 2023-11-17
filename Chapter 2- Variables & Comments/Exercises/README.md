@@ -7,7 +7,7 @@ Once you have completed your solution you should make sure you commit and push y
 
 &nbsp;
 
-## Exercise 1: Variables:ballot_box_with_check:
+## Exercise 1: Variables :ballot_box_with_check:
 
 Type out the code below and add the correct data types to complete the variables
 
@@ -44,6 +44,7 @@ Then print the name using each of the three stripping functions, lstrip(), rstri
 &nbsp;
 &nbsp;
 &nbsp;
+
 ## Exercise 4: Favorite Number :ballot_box_with_check:
 Use a variable to represent your favorite number. Then,using that variable, create a message that reveals your favorite number. Print
 that message.
@@ -63,3 +64,53 @@ You will to use the arithmetic operators to complete this exercise.
 &nbsp;
 &nbsp;
 &nbsp;
+
+## Exercise 6: Tip Calculator :ballot_box_with_check:
+
+When you go out to eat, you always tip 20% of the bill amount. But who’s got the time to calculate the right tip amount every time? Write a program to calculate tips and save some time.
+The program needs to take the bill amount as input and output the tip as a float.
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 7: Working with Input :ballot_box_with_check:
+
+Write a program to take x and y as input and output the string x, repeated y times.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 8: Area of Rectangle :ballot_box_with_check:
+
+Write a program to find the area of a rectangle by taking the numbers from the user.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 9: In - place operators :ballot_box_with_check:
+
+Solve the following in-place operators by using any of the numerical operation (+, -, *, /, %, **, //).
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 10: Printing your Information :ballot_box_with_check:
+
+Write a program to print your basic information.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+
+
+
+
+

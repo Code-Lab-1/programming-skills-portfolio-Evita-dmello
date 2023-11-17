@@ -1,0 +1,33 @@
+Answer for Exercise 1 -
+
+Program –
+prompt = "\nWhat topping would you like on your pizza?"
+prompt += "\nEnter 'quit' when you are finished: "
+
+while True:
+    topping = input(prompt)
+    if topping != 'quit':
+        print(f"  I'll add {topping} to your pizza.")
+    else:
+        break
+        
+Output - 
+What topping would you like on your pizza?
+Enter 'quit' when you are finished: pineapple
+  I'll add pineapple to your pizza.
+
+What topping would you like on your pizza?
+Enter 'quit' when you are finished: pepperoni
+  I'll add pepperoni to your pizza.
+
+What topping would you like on your pizza?
+Enter 'quit' when you are finished: olives
+  I'll add olives to your pizza.
+
+What topping would you like on your pizza?
+Enter 'quit' when you are finished: chicken
+  I'll add chicken to your pizza.
+
+What topping would you like on your pizza?
+Enter 'quit' when you are finished: quit
+>>> 

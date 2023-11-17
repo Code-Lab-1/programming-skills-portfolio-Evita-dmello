@@ -1,0 +1,54 @@
+Answer for Exercise 7 -
+
+Program -
+locations = ['Canada', 'United Kingdom', 'Paris', 'Japan', 'Germany']
+
+print("Original order:") 
+print(locations)
+
+print("\nAlphabetical:") 
+print(sorted(locations))
+
+print("\nOriginal order:") 
+print(locations)
+
+print("\nReverse alphabetical:") 
+print(sorted(locations, reverse=True))
+
+print("\nOriginal order:") 
+print(locations)
+
+print("\nReversed:")
+locations.reverse() 
+print(locations)
+
+print("\nOriginal order:")
+locations.reverse() 
+print(locations)
+
+print("\nAlphabetical")
+locations.sort() 
+print(locations)
+
+print("\nReverse alphabetical")
+locations.sort(reverse=True) 
+print(locations)
+
+Output –
+Original order: ['Canada', 'United Kingdom', 'Paris', 'Japan', 'Germany']
+
+Alphabetical: ['Canada', 'Germany', 'Japan', 'Paris', 'United Kingdom']
+
+Original order: ['Canada', 'United Kingdom', 'Paris', 'Japan', 'Germany']
+
+Reverse alphabetical: ['United Kingdom', 'Paris', 'Japan', 'Germany', 'Canada']
+
+Original order: ['Canada', 'United Kingdom', 'Paris', 'Japan', 'Germany']
+
+Reversed: ['Germany', 'Japan', 'Paris', 'United Kingdom', 'Canada']
+
+Original order: ['Canada', 'United Kingdom', 'Paris', 'Japan', 'Germany']
+
+Alphabetical ['Canada', 'Germany', 'Japan', 'Paris', 'United Kingdom']
+
+Reverse alphabetical ['United Kingdom', 'Paris', 'Japan', 'Germany', 'Canada']

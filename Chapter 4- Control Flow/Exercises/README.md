@@ -77,3 +77,59 @@ Make a list of your favorite fruits, and then write a series of independent if s
 •Write five if statements. Each should check whether a certain kind of fruit is in your list. If the fruit is in your list, the if block 
 
 should print a statement,such as You really like bananas!
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 6: Hello Admin :ballot_box_with_check:
+
+Make a list of five or more usernnames, including the name 'admin'. Write a code that will print a greeting to each user after they log in to a website. Loop through the list, and print a greeting to each user:
+
+If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+Otherwise, print a greeting, such as Hello Tina, thank you for loggin in again.
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: Boiling Water :ballot_box_with_check:
+
+Write a program that checks if the water is boiling. Take the integer temperature in Celsius as input and output "Boiling" if the temperature is above or equal to 100.
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 8: Age Control :ballot_box_with_check:
+
+Write a program to control entrance to a club. Only people who are 18 or older are allowed to enter the club. Your program takes the age of the person who tries to enter, and outputs "Allowed" if they are allowed to enter the club, and "Sorry" if they are younger than the allowed age.
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Call it even :ballot_box_with_check:
+
+You are given a program that outputs all the numbers from 0 to 10. Change the code to make it output only the even numbers.
+
+
+&nbsp;
+&nbsp;
+
+## Exercise 10: Age Group :ballot_box_with_check:
+
+Given the age of a person as an input, output their age group.
+
+Here are the age groups you need to handle:
+Child: 0 to 11
+Teen: 12 to 17
+Adult: 18 to 64
+
+&nbsp;
+&nbsp;
+
+
+
+
+

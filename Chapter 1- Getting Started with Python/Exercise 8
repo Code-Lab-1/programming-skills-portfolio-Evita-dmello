@@ -1,0 +1,13 @@
+Answer for Exercise 8 -
+
+Program –
+a= int(input("Enter the first number:")) 
+b= int(input("Enter the second number:")) 
+product = a*b 
+print ("product of the number=",product)
+
+Output –
+Enter the first number:30 
+Enter the second number:20 
+product of the number= 600
+

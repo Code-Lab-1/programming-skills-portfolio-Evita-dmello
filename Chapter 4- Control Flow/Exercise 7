@@ -1,0 +1,16 @@
+Answer for Exercise 7 -
+
+Program –
+temp = int(input("Please enter the temperature"))
+
+if temp >= 100:
+    print("Boiling")
+else:
+    print("Normal")
+    
+Output -     
+Please enter the temperature105
+Boiling
+>>> 
+Please enter the temperature98
+Normal    

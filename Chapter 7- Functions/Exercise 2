@@ -1,0 +1,11 @@
+Answer for Exercise 2 -
+
+Program –
+def favorite_book(title):
+    """Display a message about someone's favorite book."""
+    print(f"{title} is one of my favorite books.")
+
+favorite_book('One of us is Lying')
+
+Output - 
+One of us is Lying is one of my favorite books.

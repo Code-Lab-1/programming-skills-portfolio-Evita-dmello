@@ -1,0 +1,31 @@
+Answer for Exercise 4 -
+
+Program –
+sandwich_orders = ['potato', 'grilled cheese', 'omelette', 'paneer','veggie','chicken tandoori','chicken tikka']
+finished_sandwiches = []
+
+while sandwich_orders:
+    current_sandwich = sandwich_orders.pop()
+    print(f"I'm working on your {current_sandwich} sandwich.")
+    finished_sandwiches.append(current_sandwich)
+
+print("\n")
+for sandwich in finished_sandwiches:
+    print(f"I made a {sandwich} sandwich.")
+    
+Output - 
+I'm working on your chicken tikka sandwich.
+I'm working on your chicken tandoori sandwich.
+I'm working on your veggie sandwich.
+I'm working on your paneer sandwich.
+I'm working on your omelette sandwich.
+I'm working on your grilled cheese sandwich.
+I'm working on your potato sandwich.
+
+I made a chicken tikka sandwich.
+I made a chicken tandoori sandwich.
+I made a veggie sandwich.
+I made a paneer sandwich.
+I made a omelette sandwich.
+I made a grilled cheese sandwich.
+I made a potato sandwich.
